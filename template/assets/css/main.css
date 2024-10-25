@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;500&display=swap');
+
+:root {
+    --body_bg : #f8ffff;
+
+    --btn-primary-hover :#325e29;
+    --btn-primary :#3c7531;
+    --btn-info-hover :#42b6ce;
+    --btn-info :#42b6ce;
+    --btn-danger-hover :#882626;
+    --btn-danger :#ce4242;
+    --btn-success-hover :#4db560;
+    --btn-success :#62eb7b;
+    --btn-theme :#8ec222;
+    --btn-theme-hover :#21a6ad;
+
+	--main-color: #8ec222;
+    --font-color:#032224;
+    --link-white:#fff;
+    --link-hover:#032224;
+}
+.containerz{display: none;}
+body{
+    font-family: 'Noto Sans Thai', sans-serif;
+    background: var(--body_bg);
+    color : var(--font-color);
+}
+header .navbar{
+    background-color: var(--main-color);
+    font-size: 1rem;
+}
+header .navbar-nav .nav-link.active{color:var(--link-hover)}
+header .navbar-nav .nav-link {color:var(--link-white)}
+header .navbar-nav .nav-link:hover {color:var(--link-hover)}
+
+.pin{
+    height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ff61c9;
+  -webkit-box-shadow: 0px 0px 20px 5px rgb(255, 97, 201);
+}
+
+
+#mapz{width: 100%;height:90vh;}
+.btn-primary{
+    background-color: var(--btn-primary);
+    border-color: var(--btn-primary);
+}
+.btn-primary:hover{
+    background-color: var(--btn-primary-hover);
+    border-color: var(--btn-primary-hover);
+}
+
+.btn-info{
+    background-color: var(--btn-info);
+    border-color: var(--btn-info);
+}
+.btn-info:hover{
+    background-color: var(--btn-info-hover);
+    border-color: var(--btn-info-hover);
+}
+
+.btn-danger{
+    background-color: var(--btn-danger);
+    border-color: var(--btn-danger);
+}
+.btn-danger:hover{
+    background-color: var(--btn-danger-hover);
+    border-color: var(--btn-danger-hover);
+}
+
+.btn-success{
+    background-color: var(--btn-success);
+    border-color: var(--btn-success);
+}
+.btn-success:hover{
+    background-color: var(--btn-success-hover);
+    border-color: var(--btn-success-hover);
+}
+.btn-theme{
+    background-color: var(--btn-theme);
+    border-color: var(--btn-theme);
+    color:#fff;
+}
+.btn-theme:hover{
+    background-color: var(--btn-theme-hover);
+    border-color: var(--btn-theme-hover);
+    color:#fff;
+}
+
+.line{border: 1px dashed #eee;}
+
+.scope-section{
+    font-size: 18px;
+    color : var(--font-color);
+}
+
+.scope-section2 {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #f54d4d;
+    padding: 5px;
+  }
+
+  #pills-tabContent i{margin:0;}
+  #pills-tabContent .btn{padding:0 5px;}
+  #pills-tabContent .btn i{font-size: medium;}
+  
+
+footer{
+    font-size: 11px;
+    background-color: var(--main-color);
+    color:#fff;
+}
+
+.f_container {
+    position: relative;
+}
+
+.f_nav {
+    position: absolute;
+    top: 0px;
+    left: -60px;
+}
+
+.cfcontent{position: relative;}
+.cfstat{
+    width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+  opacity: .9;
+  padding: 10px 0 0 0;
+}
+
+.cfstat .stat_icon{
+    padding: 0px;
+  font-size: 30px;
+  background-color: #23767a;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.cfstat .stat_number{
+    font-size: 40px;
+  color: #ff8419;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.cffilter {
+    padding: 20px 20px 0 20px;
+}
+.cffilter .cffrm{
+    color:#666;
+}
+.cffilter h3{font-size: 20px;}
+
+.cfdisplay_header{
+   
+    background-color: #3d4646;
+    padding: 5px 0;
+    color: #fff;
+}
+.cfdisplay_body{
+    
+    height: 25vh;
+  overflow: auto;
+  color:#666;
+}
+.cfdisplay_footer{
+    height: 40vh;
+    overflow: hidden;
+    background-image: url("/template/assets/images/lcs_footer.png");
+    background-size: cover;
+}
+
+
+.bg1{background-color: #eee;}
+.openPopup:hover{cursor: pointer;color:#333}
